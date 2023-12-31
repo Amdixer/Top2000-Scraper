@@ -2,13 +2,13 @@
 Dit is een serie tools om automatisch de NPO Top2000 van NPO Radio 2 te kunnen downloaden. Vanwege auteursredenen heb ik geen links en mp3 bestanden gepost. De tool kijkt naar de actuele website van de Nederlandse Publieke Omroep en verzamelt de links daar. Werkt enkel voor 2020,2021 en 2022. Kan aangepast worden voor andere jaren, maar die hadden een iets andere indeling. (geen uitzending op de 25e voor 8.00)
 
 ## 01-Scraper.py
-Draai dit script met Python 3. Dit zal de website van de NPO bezoeken en de links verzamelen. Requirements:
-BeautifulSoup (bs4)
-urllib
-re
-csv
-tqdm
-os
+Draai dit script met Python 3. Dit zal de website van de NPO bezoeken en de links verzamelen. Verander de YEAR variabele om een ander jaar te pakken. Requirements:
+- BeautifulSoup (bs4)
+- urllib
+- re
+- csv
+- tqdm
+- os
 
 ## 02-Download.sh
 Shell script om alle links te downloaden. Afhankelijk van het jaar, verander de gelinkte CSV file in lijn 6. Draai daarna met bash.
